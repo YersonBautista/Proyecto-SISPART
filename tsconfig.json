@@ -2,6 +2,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@home/*": ["src/app/pages/home/*"]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
