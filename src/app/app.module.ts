@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 //Import External
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { NavbarModule } from '@shared/navbar/navbar.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ToastrModule } from 'ngx-toastr';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule, 
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    NavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
